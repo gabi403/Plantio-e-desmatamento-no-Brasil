@@ -1,0 +1,515 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agro Forte, Futuro Sustentável</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f9f4;
+color:#2d2d2d;
+line-height:1.7;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero{
+max-width:900px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#43a047;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#2e7d32;
+transform:translateY(-3px);
+}
+
+nav{
+position:sticky;
+top:0;
+background:#1b5e20;
+padding:18px;
+text-align:center;
+z-index:1000;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:600;
+}
+
+nav a:hover{
+color:#c8e6c9;
+}
+
+section{
+padding:90px 10%;
+}
+
+.titulo{
+text-align:center;
+margin-bottom:60px;
+}
+
+.titulo h2{
+font-size:2.7rem;
+color:#1b5e20;
+margin-bottom:15px;
+}
+
+.cards,
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card,
+.stat{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover,
+.stat:hover{
+transform:translateY(-6px);
+}
+
+.card h3,
+.stat h3{
+color:#2e7d32;
+margin-bottom:15px;
+}
+
+.estatisticas{
+background:#edf7ec;
+}
+
+.numero{
+font-size:3rem;
+font-weight:700;
+color:#1b5e20;
+margin-bottom:10px;
+}
+
+footer{
+background:#123d16;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+footer h3{
+margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.7rem;
+}
+
+.titulo h2{
+font-size:2rem;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>🌱 Agro Forte, Futuro Sustentável</h1>
+
+<p>
+O equilíbrio entre produção agrícola e preservação ambiental é essencial
+para garantir alimentos, desenvolvimento econômico e qualidade de vida
+para as futuras gerações.
+</p>
+
+<a href="#dados" class="btn">
+Explorar Conteúdo
+</a>
+
+</div>
+
+</header>
+
+<nav>
+<a href="#dados">Estatísticas</a>
+<a href="#tecnicas">Técnicas</a>
+<a href="#plantio">Plantio</a>
+<a href="#desmatamento2025">Desmatamento 2025</a>
+<a href="#mata">Mata Atlântica</a>
+<a href="#cerrado">Cerrado</a>
+<a href="#amazonia">Amazônia</a>
+</nav>
+
+<section id="dados">
+
+<div class="titulo">
+<h2>📊 Dados e Estatísticas</h2>
+
+<p>
+Indicadores que demonstram a importância da sustentabilidade
+no agronegócio brasileiro.
+</p>
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<div class="numero">21%</div>
+<h3>PIB Brasileiro</h3>
+<p>O agronegócio representa aproximadamente 21% da economia nacional.</p>
+</div>
+
+<div class="stat">
+<div class="numero">300M+</div>
+<h3>Produção de Grãos</h3>
+<p>O Brasil produz mais de 300 milhões de toneladas de grãos por ano.</p>
+</div>
+
+<div class="stat">
+<div class="numero">70%</div>
+<h3>Uso da Água</h3>
+<p>A agricultura utiliza cerca de 70% da água doce consumida no mundo.</p>
+</div>
+
+<div class="stat">
+<div class="numero">66%</div>
+<h3>Vegetação Nativa</h3>
+<p>O Brasil preserva aproximadamente 66% de sua vegetação nativa.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="tecnicas">
+
+<div class="titulo">
+<h2>🚜 Técnicas Sustentáveis</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌾 Plantio Direto</h3>
+<p>Reduz erosão e melhora a conservação do solo.</p>
+</div>
+
+<div class="card">
+<h3>💧 Irrigação Inteligente</h3>
+<p>Economiza água através de sensores e gotejamento.</p>
+</div>
+
+<div class="card">
+<h3>☀️ Energia Solar</h3>
+<p>Reduz custos e impactos ambientais nas propriedades rurais.</p>
+</div>
+
+<div class="card">
+<h3>🌳 Integração Lavoura-Pecuária-Floresta</h3>
+<p>Produção agrícola integrada com preservação ambiental.</p>
+</div>
+
+<div class="card">
+<h3>📡 Agricultura de Precisão</h3>
+<p>Drones e sensores ajudam a reduzir desperdícios.</p>
+</div>
+
+<div class="card">
+<h3>♻️ Compostagem</h3>
+<p>Transforma resíduos orgânicos em adubo natural.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="estatisticas" id="plantio">
+
+<div class="titulo">
+<h2>🌱 Dicas para Melhorar o Plantio</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌿 Adubação Orgânica</h3>
+<p>Melhora a fertilidade do solo naturalmente.</p>
+</div>
+
+<div class="card">
+<h3>🧪 Análise do Solo</h3>
+<p>Permite corrigir nutrientes e aumentar a produtividade.</p>
+</div>
+
+<div class="card">
+<h3>💦 Irrigação por Gotejamento</h3>
+<p>Economiza água e aumenta a eficiência da irrigação.</p>
+</div>
+
+<div class="card">
+<h3>🌾 Rotação de Culturas</h3>
+<p>Reduz pragas e melhora a qualidade do solo.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="estatisticas" id="desmatamento2025">
+
+<div class="titulo">
+<h2>⚠️ Desmatamento nos Biomas Brasileiros</h2>
+
+<p>
+O desmatamento continua sendo um dos principais desafios ambientais do Brasil.
+Mesmo com avanços em práticas sustentáveis e fiscalização, os biomas brasileiros
+ainda sofrem pressão causada pela expansão agropecuária, ocupação irregular,
+extração ilegal de recursos naturais e queimadas.
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<div class="numero">Mata Atlântica</div>
+<h3>Situação Atual</h3>
+<p>
+A Mata Atlântica é um dos biomas mais ameaçados do país. Como restam cerca
+de 12% da cobertura original, cada nova área desmatada representa uma perda
+significativa para a biodiversidade. A expansão urbana e a ocupação de áreas
+naturais continuam sendo fatores importantes para a redução da vegetação nativa.
+</p>
+</div>
+
+<div class="stat">
+<div class="numero">Cerrado</div>
+<h3>Situação Atual</h3>
+<p>
+O Cerrado permanece entre os biomas com maiores índices de desmatamento do
+Brasil. A expansão das atividades agropecuárias tem acelerado a conversão de
+áreas naturais, colocando em risco nascentes, rios e milhares de espécies
+animais e vegetais que dependem desse ecossistema.
+</p>
+</div>
+
+<div class="stat">
+<div class="numero">Amazônia</div>
+<h3>Situação Atual</h3>
+<p>
+A Amazônia continua enfrentando pressões causadas por queimadas,
+extração ilegal de madeira e ocupação irregular do território.
+Apesar dos esforços de fiscalização, o desmatamento ainda ameaça a maior
+floresta tropical do planeta e compromete a regulação climática global.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="mata">
+
+<div class="titulo">
+<h2>🌳 Mata Atlântica</h2>
+
+<p>
+Uma das florestas mais ricas em biodiversidade do mundo.
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<div class="numero">100%</div>
+<h3>1500</h3>
+<p>Quando os colonizadores chegaram ao Brasil, a Mata Atlântica mantinha praticamente toda sua cobertura original.</p>
+</div>
+
+<div class="stat">
+<div class="numero">12%</div>
+<h3>2026</h3>
+<p>Restam aproximadamente 12% da cobertura original da floresta.</p>
+</div>
+
+<div class="stat">
+<div class="numero">88%</div>
+<h3>Área Perdida</h3>
+<p>Grande parte da floresta foi desmatada ao longo dos séculos.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="estatisticas" id="cerrado">
+
+<div class="titulo">
+<h2>🌾 Cerrado Brasileiro</h2>
+
+<p>
+Conhecido como o berço das águas do Brasil.
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<div class="numero">100%</div>
+<h3>Original</h3>
+<p>Cobertura natural antes da ocupação intensiva.</p>
+</div>
+
+<div class="stat">
+<div class="numero">50%</div>
+<h3>2026</h3>
+<p>Aproximadamente metade da vegetação original permanece.</p>
+</div>
+
+<div class="stat">
+<div class="numero">50%</div>
+<h3>Perda</h3>
+<p>O bioma perdeu cerca de metade de sua vegetação nativa.</p>
+</div>
+
+<div class="stat">
+<div class="numero">5%</div>
+<h3>Biodiversidade Mundial</h3>
+<p>O Cerrado abriga cerca de 5% das espécies do planeta.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="amazonia">
+
+<div class="titulo">
+<h2>🌎 Floresta Amazônica</h2>
+
+<p>
+A maior floresta tropical do planeta.
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<div class="numero">100%</div>
+<h3>1500</h3>
+<p>A Amazônia possuía praticamente toda sua cobertura original.</p>
+</div>
+
+<div class="stat">
+<div class="numero">82%</div>
+<h3>2026</h3>
+<p>Aproximadamente 82% da floresta permanece preservada.</p>
+</div>
+
+<div class="stat">
+<div class="numero">18%</div>
+<h3>Área Perdida</h3>
+<p>Cerca de 18% da floresta já foi desmatada.</p>
+</div>
+
+<div class="stat">
+<div class="numero">390 Bi</div>
+<h3>Árvores</h3>
+<p>A Amazônia abriga centenas de bilhões de árvores.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>🌱 Agro Forte, Futuro Sustentável</h3>
+
+<p>
+Produção responsável e preservação ambiental caminhando juntas.
+</p>
+
+<br>
+
+<p>
+Feito por: Gabrielly Aparecida da Silva
+</p>
+
+</footer>
+
+</body>
+</html>
+```
